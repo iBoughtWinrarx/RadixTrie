@@ -9,8 +9,4 @@ public class Node implements Comparable<Node> {
     public boolean isWord;
     public Node[] children = new Node[26];
     int childrenCount = 0;
-
-    public int compareTo(Node n) {
-        return n.ch - ch;
-    }
 }
