@@ -3,7 +3,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.stream.Collectors;
 
-public class Node implements Comparable<Node> {
+public class Node {
     public char ch;
     public String word;
     public boolean isWord;
